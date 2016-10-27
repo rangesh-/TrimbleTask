@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WeatherWidget"
         mc:Ignorable="d"
-        Title="MainWindow" Height="475" Width="675">
+        Title="Weather Widget" Height="450" Width="625" ResizeMode="NoResize">
     <Grid>
-        <local:WeatherFinderByCity HorizontalAlignment="Left" Margin="10,0,0,0" Width="625" Height="450"/>
+        <local:WeatherFinderByCity HorizontalAlignment="Left" Margin="0,0,0,0" Width="625" Height="450"/>
     </Grid>
 </Window>
